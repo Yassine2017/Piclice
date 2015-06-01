@@ -74,7 +74,7 @@ public class ViewFragment extends ListFragment {
                 shareIntent.setAction(Intent.ACTION_SEND_MULTIPLE);
                 shareIntent.putParcelableArrayListExtra(Intent.EXTRA_STREAM, imageUris);
                 shareIntent.setType("image/png");
-                startActivity(Intent.createChooser(shareIntent, "اشتراک گذاری تکه\u200Cها"));
+                startActivity(Intent.createChooser(shareIntent, getString(R.string.share_all)));
             }
         });
 

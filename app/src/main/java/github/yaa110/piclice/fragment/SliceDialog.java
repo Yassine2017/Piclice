@@ -90,7 +90,7 @@ public class SliceDialog extends DialogFragment {
         seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
-                resize_txt.setText("اندازه: " + (i + 10) + "%");
+                resize_txt.setText("Size: " + (i + 10) + "%");
                 scale_it = i + 10;
             }
 
