@@ -5,10 +5,10 @@ A practical tool which helps users to slice and share their pictures.
 
 ## Features
 
-1- Displaying all pictures of system Gallery
-2- Slicing and resizing pictures
-3- Sharing all slices at once
-4- Concurrent optimization
+- Displaying all pictures of system Gallery
+- Slicing and resizing pictures
+- Sharing all slices at once
+- Concurrent optimization
 
 ## Dependencies
 
