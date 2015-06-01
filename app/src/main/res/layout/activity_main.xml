@@ -11,38 +11,36 @@
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         android:elevation="4dp"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp"
         android:minHeight="?attr/actionBarSize"
         android:background="@color/main"
         tools:ignore="UnusedAttribute">
 
         <LinearLayout
-            android:gravity="right|center_vertical"
+            android:gravity="center_vertical"
             android:orientation="vertical"
+            android:layout_marginLeft="14dp"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize">
 
             <TextView
                 android:id="@+id/title_txt"
                 android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:ellipsize="end"
                 android:singleLine="true"
-                android:layout_marginRight="14dp"
-                android:layout_height="wrap_content"
                 android:text="@string/app_name"
                 android:textStyle="bold"
-                android:layout_alignParentRight="true"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
 
             <TextView
                 android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:ellipsize="end"
                 android:singleLine="true"
-                android:layout_marginRight="14dp"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/title_txt"
                 android:text="@string/choose_picture"
-                android:layout_alignParentRight="true"
                 android:textColor="@color/subtext"
                 android:textSize="14sp" />
 
@@ -78,12 +76,10 @@
         android:clickable="true"
         android:background="@color/black_low_transparent">
 
-        <com.pnikosis.materialishprogress.ProgressWheel
+        <ProgressBar
             android:layout_width="50dp"
             android:layout_height="50dp"
-            app:matProg_barWidth="3dp"
-            app:matProg_progressIndeterminate="true"
-            app:matProg_barColor="@color/white"/>
+            android:indeterminate="true"/>
 
         <TextView
             android:layout_width="match_parent"
