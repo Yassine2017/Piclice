@@ -1,11 +1,11 @@
-package github.yaa110.piclice2.bitmap;
+package github.yaa110.piclice.bitmap;
 
 import android.app.Activity;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.provider.MediaStore;
 
-import github.yaa110.piclice2.adapter.ImageAdapter;
+import github.yaa110.piclice.adapter.ImageAdapter;
 
 public class ImageThread implements Runnable {
 

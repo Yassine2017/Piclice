@@ -1,4 +1,4 @@
-package github.yaa110.piclice2.fragment;
+package github.yaa110.piclice.fragment;
 
 
 import android.app.ListFragment;
@@ -13,11 +13,9 @@ import android.view.ViewGroup;
 
 import java.io.File;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
 
-import github.yaa110.piclice2.R;
-import github.yaa110.piclice2.adapter.ListAdapter;
+import github.yaa110.piclice.R;
+import github.yaa110.piclice.adapter.ListAdapter;
 
 public class ViewFragment extends ListFragment {
 

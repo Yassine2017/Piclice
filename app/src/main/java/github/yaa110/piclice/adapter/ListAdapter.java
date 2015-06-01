@@ -1,4 +1,4 @@
-package github.yaa110.piclice2.adapter;
+package github.yaa110.piclice.adapter;
 
 import android.app.Activity;
 import android.content.Context;
@@ -11,7 +11,7 @@ import android.widget.ImageView;
 
 import java.io.File;
 
-import github.yaa110.piclice2.R;
+import github.yaa110.piclice.R;
 
 public class ListAdapter extends ArrayAdapter<File> {
 

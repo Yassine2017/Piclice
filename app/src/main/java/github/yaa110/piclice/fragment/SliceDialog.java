@@ -1,4 +1,4 @@
-package github.yaa110.piclice2.fragment;
+package github.yaa110.piclice.fragment;
 
 import android.app.DialogFragment;
 import android.os.Bundle;
@@ -11,7 +11,7 @@ import android.widget.EditText;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
-import github.yaa110.piclice2.R;
+import github.yaa110.piclice.R;
 
 @SuppressWarnings("UnusedDeclaration")
 public class SliceDialog extends DialogFragment {

@@ -1,4 +1,4 @@
-package github.yaa110.piclice2;
+package github.yaa110.piclice;
 
 import android.os.Build;
 import android.os.Bundle;
@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
-import github.yaa110.piclice2.fragment.ViewFragment;
+import github.yaa110.piclice.fragment.ViewFragment;
 
 public class ViewActivity extends AppCompatActivity {
 

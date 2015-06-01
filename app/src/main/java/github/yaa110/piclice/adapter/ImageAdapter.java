@@ -1,4 +1,4 @@
-package github.yaa110.piclice2.adapter;
+package github.yaa110.piclice.adapter;
 
 import android.content.Context;
 import android.view.View;
@@ -6,9 +6,9 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 
-import github.yaa110.piclice2.R;
-import github.yaa110.piclice2.bitmap.ImageThread;
-import github.yaa110.piclice2.fragment.MainFragment;
+import github.yaa110.piclice.R;
+import github.yaa110.piclice.bitmap.ImageThread;
+import github.yaa110.piclice.fragment.MainFragment;
 
 public class ImageAdapter extends BaseAdapter {
 

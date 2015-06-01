@@ -1,4 +1,4 @@
-package github.yaa110.piclice2.bitmap;
+package github.yaa110.piclice.bitmap;
 
 import android.app.ActivityManager;
 import android.content.Context;

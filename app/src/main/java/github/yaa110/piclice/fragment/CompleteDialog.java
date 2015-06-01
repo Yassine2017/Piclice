@@ -1,4 +1,4 @@
-package github.yaa110.piclice2.fragment;
+package github.yaa110.piclice.fragment;
 
 import android.app.DialogFragment;
 import android.os.Bundle;
@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import android.view.Window;
 import android.widget.TextView;
 
-import github.yaa110.piclice2.R;
+import github.yaa110.piclice.R;
 
 @SuppressWarnings("UnusedDeclaration")
 public class CompleteDialog extends DialogFragment {

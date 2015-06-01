@@ -1,11 +1,11 @@
-package github.yaa110.piclice2;
+package github.yaa110.piclice;
 
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
-import github.yaa110.piclice2.fragment.MainFragment;
+import github.yaa110.piclice.fragment.MainFragment;
 
 public class MainActivity extends AppCompatActivity {
 

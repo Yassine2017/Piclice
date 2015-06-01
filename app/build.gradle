@@ -5,11 +5,11 @@ android {
     buildToolsVersion "22.0.1"
 
     defaultConfig {
-        applicationId "github.yaa110.piclice2"
+        applicationId "github.yaa110.piclice"
         minSdkVersion 14
         targetSdkVersion 22
-        versionCode 4
-        versionName "3.5"
+        versionCode 1
+        versionName "0.1"
     }
     buildTypes {
         release {

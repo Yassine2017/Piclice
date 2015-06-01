@@ -1,4 +1,4 @@
-package github.yaa110.piclice2.fragment;
+package github.yaa110.piclice.fragment;
 
 import android.app.Fragment;
 import android.content.Intent;
@@ -17,10 +17,10 @@ import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
-import github.yaa110.piclice2.R;
-import github.yaa110.piclice2.ViewActivity;
-import github.yaa110.piclice2.adapter.ImageAdapter;
-import github.yaa110.piclice2.bitmap.BitmapWorker;
+import github.yaa110.piclice.R;
+import github.yaa110.piclice.ViewActivity;
+import github.yaa110.piclice.adapter.ImageAdapter;
+import github.yaa110.piclice.bitmap.BitmapWorker;
 
 public class MainFragment extends Fragment {
 
