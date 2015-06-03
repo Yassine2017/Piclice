@@ -47,11 +47,11 @@ public class ImageAdapter extends BaseAdapter {
             holder = new ViewHolder();
             holder.imageView = (ImageView) convertView.findViewById(R.id.image);
             holder.view = convertView.findViewById(R.id.holder);
-            holder.id = thumbnails[position];
             convertView.setTag(holder);
         } else {
             holder = (ViewHolder) convertView.getTag();
         }
+        holder.id = thumbnails[position];
 
         MainFragment.executor.execute(new ImageThread(context, holder));
 
