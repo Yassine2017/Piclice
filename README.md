@@ -1,7 +1,7 @@
 Piclice
 =======
 
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Piclice-green.svg?style=flat)](https://android-arsenal.com/details/3/1917)
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Piclice-green.svg?style=flat)](https://android-arsenal.com/details/3/1917) [![F-Droid](https://img.shields.io/badge/F--Droid-Piclice-red.svg?style=flat)](https://f-droid.org/repository/browse/?fdid=github.yaa110.piclice)
 
 A practical tool which helps users to slice and share their pictures.
 
